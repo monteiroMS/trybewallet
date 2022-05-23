@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.first {
+  color: #2e2e2e;
+}
+
+.second {
+  color: darkgreen;
+}

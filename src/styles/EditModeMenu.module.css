@@ -1,0 +1,57 @@
+.container {
+  align-items: center;
+  background-color: #252525;
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.label {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.label input {
+  background-color: #313131;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+  width: 150px;
+}
+
+.label select {
+  background-color: #313131;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  min-width: max-content;
+  padding: 10px;
+  width: 100px;
+}
+
+.label select:hover {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: yellow;
+  border: 1px solid yellow;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn:active {
+  color: lightblue;
+}

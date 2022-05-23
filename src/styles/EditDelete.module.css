@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.edit {
+  width: 20px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.delete {
+  height: 20px;
+}

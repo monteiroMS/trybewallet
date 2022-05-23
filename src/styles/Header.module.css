@@ -1,0 +1,40 @@
+.container {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.user {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.user img {
+  height: 40px;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  gap: 50px;
+}
+
+.total {
+  align-items: center;
+  background-color: green;
+  color: white;
+  display: flex;
+  font-weight: 700;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px 15px;
+}
+
+.total p {
+  margin: 0;
+}
