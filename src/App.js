@@ -8,9 +8,9 @@ function App() {
   return (
     <Switch>
       <Route path="/trybewallet" component={ Login } />
-      <Route path="/trybewallet/carteira" component={ Wallet } />
-      <Route path="/trybewallet/404" component={ NotFound } />
-      <Redirect to="/trybewallet/404" />
+      <Route path="/carteira" component={ Wallet } />
+      <Route path="/404" component={ NotFound } />
+      <Redirect to="/404" />
     </Switch>
   );
 }
